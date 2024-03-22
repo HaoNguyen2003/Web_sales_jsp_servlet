@@ -1,0 +1,45 @@
+.nav-size{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    width: 350px;
+    margin-top: 2px;
+    margin-left: -4px;
+    display: none;
+}
+.size-product{
+    background-color: #ccc;
+    padding: 2px 4px;
+    border-radius: 5px;
+    position: relative;
+}
+.size-product:hover .nav-size{
+    display: flex;
+}
+.nav-size .chil-nav:hover{
+    opacity: 0.6;
+}
+.nav-size .chil-nav{
+    padding: 5px 8px;
+    background-color: #ccc;
+    width: 80px;
+    height: 30px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.chil-nav{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+.chil-nav a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+}

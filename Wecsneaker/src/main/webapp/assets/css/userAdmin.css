@@ -1,0 +1,35 @@
+.statusAccount{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 50px;
+    animation: blink 3s infinite;
+    z-index: -1;
+    }
+    .activeAccount{
+    background-color:  #86e49d;
+    color: #066b21;
+    }
+    .inactiveAccount{
+    background-color:  #ff623d;
+    color: red;
+    }
+        @keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
+td button{
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0.000000001);
+    padding: 5px 5px;
+    text-align: center;
+    color:#111111;
+}
